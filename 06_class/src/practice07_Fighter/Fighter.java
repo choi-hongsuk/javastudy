@@ -45,7 +45,7 @@ public class Fighter {
 	  if (power > other.getHp()) {
 		  other.setHp(0);
 	  } else {
-		  other.setHp(other.getHp() - power);
+		  other.setHp(other.getHp() - power);  
 	  }
 	  System.out.println(name + "의 hp : " + hp + ", " + other.getName() + "의 hp : " + other.getHp());
 	}
