@@ -1,4 +1,4 @@
-package pratice01_square;
+package practice01_square;
 
 public class MainClass {
 
