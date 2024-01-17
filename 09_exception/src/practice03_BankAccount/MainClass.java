@@ -22,7 +22,7 @@ public class MainClass {
     	long money;
     	money = account1.withdrawal(100000);  // 10만원 출금 (성공)
     	System.out.println(money);            // 100000 (출금된 금액 출력)
- //   	money = account1.withdrawal(200000);  // 20만원 출금 (실패)
+  //   	money = account1.withdrawal(200000);  // 20만원 출금 (실패)
   //  	System.out.println(money);            // 0 (출금된 금액 출력)
     	
     	/////////

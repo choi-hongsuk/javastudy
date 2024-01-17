@@ -3,7 +3,7 @@ package pkg08_cutom_exception;
 /*
  * 사용자 예외 클래스
  * 1. java.lang.Exception 클래스를 상속한다.
- * 2. 클랫명은 Exception 으로 끝나는 것이 좋다.
+ * 2. 클래스명은 Exception 으로 끝나는 것이 좋다.
  */
 
 public class MyException extends Exception {
