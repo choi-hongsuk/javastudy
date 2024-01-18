@@ -23,7 +23,7 @@ public class MainClass {
     // HashMap 선언
     Map<String, Object> book;
     
-    // HashMap 생성
+    // HashMap 생성 
     book = new HashMap<String, Object>();
     
     // Key, Value 추가 (Entry 추가)
