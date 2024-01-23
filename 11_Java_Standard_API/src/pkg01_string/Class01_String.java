@@ -284,11 +284,14 @@ public class Class01_String {
 	 System.out.println(result);
 	 
 	 // 2. 거꾸로 문자열을 만들어서 비교하기
-	 String reverse = "";
+
+	 StringBuilder builder = new StringBuilder();
+	 
 	 for(int i = word.length() - 1; i >= 0; i--) {
-		 reverse += word.charAt(i);
+		 builder.append(word.charAt(i));
 	 }
-	  System.out.println(word.equals(reverse));
+	 String reverse = builder.toString();
+	 System.out.println(word.equals(reverse));
   }
   
   public static void main(String[] args) {
