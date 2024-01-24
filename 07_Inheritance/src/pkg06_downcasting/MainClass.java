@@ -18,6 +18,7 @@ public class MainClass {
 		if(computer instanceof Tablet) {
 			((Tablet) computer).screenTouch();
 			((Tablet) computer).portable();
+			
 		}
 		
 		// 잘못된 다운캐스팅 ( Wearable 타입으로 변환) - ClassCastException 예외 발생
