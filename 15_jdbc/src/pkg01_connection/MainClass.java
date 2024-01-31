@@ -18,7 +18,7 @@ public class MainClass {
 	/*
 	 * java.sql.Connection
 	 * 1. 데이터베이스 접속 객체 타입의 인터페이스이다.
-	 * 2.  java.sql.DriverlManger 클래스가 데이터인터페이스 접속 객체로 생성한다.
+	 * 2.  java.sql.DriverlManager 클래스가 데이터인터페이스 접속 객체로 생성한다.
 	 */
 	
 	/*

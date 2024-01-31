@@ -179,7 +179,7 @@ public class UserDao {
   
   
   // 사용자 삭제 : deleteUser, removeUser 등
-  public int deleteUser(int user_no) {
+  public int removeUser(int user_no) {
 	  
 	  int result = 0;
 	  try {
